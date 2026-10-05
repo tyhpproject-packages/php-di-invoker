@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-di-invoker",
+    "description": "Tyhp type definitions for php-di/invoker 2.3.7.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.3.7",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-di-invoker-impl": "~2.3.7.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-di-invoker-impl"
+        }
+    }
+}
